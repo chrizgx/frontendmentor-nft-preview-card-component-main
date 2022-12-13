@@ -35,18 +35,24 @@ html, body {
     font-size: 18px;
 }
 
-#canvas {
+/* #canvas {
     position: absolute;
     display: inline;
     z-index: 0;
     max-height: 100%;
+} */
+
+#canvas {
+    position: fixed;
+    width: 100%;
+    z-index: 0;
 }
 
 main {
     display: flex;
     flex-direction: column;
     width: 80vw;
-    max-width: 310px;
+    max-width: 270px;
     height: min-content;
     padding: 20px;
     z-index: 1;
