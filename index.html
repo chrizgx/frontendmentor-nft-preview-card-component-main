@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+
+  <main>
+    <div class="img-div"">
+      <img id="mainImage" src="./images/image-equilibrium.jpg" alt="">
+      <span id="shadowSpan"><img id="eyeImage" src="./images/icon-view.svg" alt=""></span>
+    </div>
+    
+    <h1 class="light-text">Equilibrium #3429</h1>
+    <p class="dark-text">Our Equilibrium collection promotes balance and calm.</p>
+
+    <div class="ethereum-clock">
+      <span class="ethereum flex-row-items-center">
+        <img src="./images/icon-ethereum.svg" alt="">
+        <span class="width"></span>
+        0.041 ETH
+      </span>
+      <span class="clock flex-row-items-center">
+        <img src="./images/icon-clock.svg" alt="">
+        <span class="width"></span>
+        3 days left
+      </span>
+    </div>
+
+    <hr>
+
+    <span id="creatorSection" class="dark-text flex-row-items-center">
+      <img id="avatarImage" src="./images/image-avatar.png" alt="">
+      Creation of <span class="light-text">Jules Wyvern</span>
+    </span>
+  </main>
+
+  <!-- Equilibrium #3429
+
+  Our Equilibrium collection promotes balance and calm.
+
+  0.041 ETH
+  3 days left
+  
+  Creation of Jules Wyvern -->
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script src="https://unpkg.com/starback@2.1.1/dist/starback.global.js"></script>
+  <script src="./js/stars.js"></script>
+</body>
+</html>
