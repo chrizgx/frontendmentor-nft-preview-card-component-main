@@ -44,7 +44,7 @@ html, body {
 
 #canvas {
     position: fixed;
-    width: 100%;
+    height: 100%;
     z-index: 0;
 }
 
@@ -145,4 +145,17 @@ hr {
 
 .dark-text {
     color: var(--color-blue);
+}
+
+@media (max-width: 600px) {
+    #canvas {
+        width: 100%;
+        height: 100%
+    }
+}
+
+@media (min-width: 601px) {
+    #canvas {
+        width: 100%;
+    }
 }
